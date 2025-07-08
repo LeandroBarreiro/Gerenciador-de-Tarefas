@@ -3,7 +3,8 @@
 // import viteLogo from '/vite.svg'
 // import './App.css'
 
-import { useState } from "react";
+import AddTask from "./components/AddTask";
+import Tasks from "./components/Taks";
 
 // function App() {
 //   const [count, setCount] = useState(0)
@@ -38,18 +39,11 @@ import { useState } from "react";
 
 // State (Estado)
 function App() {
-  const [message, setMessage] = useState("Olá Mundo");
-
   return (
     <div>
-      <h1>{message}</h1>
-      <button
-        onClick={() => {
-          setMessage("Fui clicado");
-        }}
-      >
-        Mudar Mensagem
-      </button>
+      <h1>Gerenciador de Tarefas</h1>
+      <AddTask />
+      <Tasks />
     </div>
   );
 }
