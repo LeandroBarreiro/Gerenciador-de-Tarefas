@@ -77,10 +77,8 @@ function App() {
   }
 
   function deleteTask(taskId) {
-    const deleteTask = task.map((task) => {
-      if (task.id === taskId) {
-      }
-    });
+    const newTasks = tasks.filter((task) => task.id !== task.id);
+    setTaks(newTasks);
   }
 
   return (
