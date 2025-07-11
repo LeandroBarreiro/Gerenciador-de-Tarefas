@@ -7,7 +7,7 @@ function Tasks({ tasks, onTaskClick, onDeleteTaskClick }) {
   function onSeeDetailsClick(task) {
     const query = new URLSearchParams();
     query.set("title", task.title);
-    query.set("descripition", task, descripition);
+    query.set("description", task.description);
     navigate(`/task?${query.toString()}`);
   }
 
@@ -23,18 +23,12 @@ function Tasks({ tasks, onTaskClick, onDeleteTaskClick }) {
           >
             {task.title}
           </button>
-          <button
-            onClick={() => onSeeDetailsClick(task)}
-            className="bg-slate-400 p-2 rounded-md text-white"
-          >
+          <Button onClick={() => onSeeDetailsClick(task)}>
             <ChevronRightIcon />
-          </button>
-          <button
-            onClick={() => onDeleteTaskClick(task.id)}
-            className="bg-slate-400 p-2 rounded-md text-white"
-          >
+          </Button>
+          <Button onClick={() => onDeleteTaskClick(task.id)}>
             <TrashIcon />
-          </button>
+          </Button>
         </li>
       ))}
     </ul>
