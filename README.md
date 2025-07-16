@@ -10,16 +10,13 @@ Este é um projeto simples de **Gerenciador de Tarefas** desenvolvido com foco e
 - 🗑️ Remover tarefas
 - 💾 Interface moderna e responsiva
 
-## 📷 Preview
-
-![Preview do Projeto](./caminho/para/sua/imagem.png)
 
 ## 🛠️ Tecnologias Utilizadas
 
 - [React](https://react.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [Vite](https://vitejs.dev/) (provavelmente)
+- [Vite](https://vitejs.dev/)
 
 ## 🚀 Como executar
 
