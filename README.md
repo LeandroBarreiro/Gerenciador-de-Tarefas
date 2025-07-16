@@ -20,7 +20,4 @@ Este é um projeto simples de **Gerenciador de Tarefas** desenvolvido com foco e
 
 ## 🚀 Como executar
 
-1. Clone o repositório:
-
-```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+1. Acesse: https://gerenciador-de-tarefas-one-indol.vercel.app/
